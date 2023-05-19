@@ -3,3 +3,4 @@ const hello = (name) => {
 }
 
 hello(Ollie);
+console.log (hello)
