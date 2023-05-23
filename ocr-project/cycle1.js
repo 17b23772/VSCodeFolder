@@ -1,5 +1,6 @@
-const hello = (name) => {
-    console.log("Hello" + name);
-}
+const divs = document.querySelectorAll('.gridItem');
+Array.from(divs).forEach(div =>{
+    div.addEventListener('click', classToggler);
+});
 
-hello(Ollie);
+const colors = []
